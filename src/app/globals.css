@@ -18,4 +18,13 @@
 	.tag {
 		@apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tighter;
 	}
+	.section-title {
+		@apply text-center text-3xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#273d88] text-transparent bg-clip-text mt-4;
+	}
+	.section-ptag {
+		@apply text-center text-[18px] leading-[20px] tracking-tighter text-[#191c3b] mt-4;
+	}
+	.section-heading {
+		@apply max-w-[540px] mx-auto;
+	}
 }
