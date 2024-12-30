@@ -19,21 +19,25 @@ export const ProductShowcase = () => {
 						SaaS website in just minutes.
 					</p>
 				</div>
-				<div className="relative">
-					<Image src={productImage} alt="" className="mt-4" />
+				<div className="flex items-center justify-center relative">
+					<Image
+						src={productImage}
+						alt=""
+						className="mt-4 md:object-scale-down md:h-80 lg:h-[550px] w-auto"
+					/>
 					<Image
 						src={pyramidImage}
 						alt=""
-						className="hidden md:block absolute -right-36 -top-24 "
-						height={200}
-						width={200}
+						className="hidden md:block absolute -right-28 -top-24 "
+						height={250}
+						width={250}
 					/>
 					<Image
 						src={tubeImage}
 						alt=""
-						className="hidden md:block absolute -left-36 bottom-2 "
-						height={200}
-						width={200}
+						className="hidden md:block absolute -left-28 bottom-2 "
+						height={250}
+						width={250}
 					/>
 				</div>
 			</div>

@@ -18,11 +18,11 @@ export const Hero = () => {
 							Celebrate the joy of acomplishment with an app designed to tract
 							your progress.
 						</p>
-						<div className="flex gap-1 items-center mt-[30px] ">
+						<div className="flex gap-10 items-center mt-[30px] ">
 							<button className="btn btn-primary">Get for Free</button>
 							<button className="btn btn-text gap-1">
 								<span>Learn More</span>
-								<ArrowRight className="h-4 w-4" />
+								<ArrowRight className="h-5 w-5" />
 							</button>
 						</div>
 					</div>
