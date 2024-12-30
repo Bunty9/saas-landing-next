@@ -5,7 +5,7 @@ import MenuIcon from "@/assets/menu.svg";
 
 export const Header = () => {
 	return (
-		<header className="sticky top-0 backdrop-blur-sm z-10">
+		<header className="sticky top-0 backdrop-blur backdrop-grayscale-[0.2] z-10">
 			<div className="flex justify-center items-center bg-black text-white text-sm py-3 gap-3">
 				<p className="text-white/60 hidden md:block">
 					Streamline workflow and boot productivity.
@@ -18,7 +18,15 @@ export const Header = () => {
 			<div className="py-4">
 				<div className="container ">
 					<div className="flex justify-between items-center">
-						<Image src={Logo} alt="" height={40} width={40} />
+						<div className="logo-blur">
+							<Image
+								src={Logo}
+								alt=""
+								height={40}
+								width={40}
+								className="relative"
+							/>
+						</div>
 						<MenuIcon className="h-5 w-5 md:hidden" />
 						<nav className="hidden md:flex gap-6 font-bold text-black/80 items-center">
 							<a href="#">About</a>

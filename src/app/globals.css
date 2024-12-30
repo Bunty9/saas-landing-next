@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+	.logo-blur {
+		@apply inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:blur-md before:w-full before:bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute;
+	}
 	.btn {
 		@apply py-2 px-4 rounded-lg font-medium inline-flex items-center justify-center tracking-tighter;
 	}

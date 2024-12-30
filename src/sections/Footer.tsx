@@ -10,7 +10,7 @@ export const Footer = () => {
 	return (
 		<footer className="bg-black text-[#BCBCBC] text-sm py-10 text-center">
 			<div className="container items-center justify-center gap-4">
-				<div className="inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:blur-md before:w-full before:bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute">
+				<div className="logo-blur">
 					<Image
 						src={logo}
 						alt=""
