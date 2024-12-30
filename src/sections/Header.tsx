@@ -3,7 +3,6 @@ import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import MenuIcon from "@/assets/menu.svg";
 
-
 export const Header = () => {
 	return (
 		<header className="sticky top-0 backdrop-blur-sm z-10">
@@ -21,7 +20,7 @@ export const Header = () => {
 					<div className="flex justify-between items-center">
 						<Image src={Logo} alt="" height={40} width={40} />
 						<MenuIcon className="h-5 w-5 md:hidden" />
-						<nav className="hidden md:flex gap-6 text-black/60 items-center">
+						<nav className="hidden md:flex gap-6 font-bold text-black/80 items-center">
 							<a href="#">About</a>
 							<a href="#">Features</a>
 							<a href="#">Customers</a>

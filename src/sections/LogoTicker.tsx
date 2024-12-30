@@ -10,7 +10,7 @@ export const LogoTicker = () => {
 	return (
 		<div className="py-8 md:py-12 bg-white">
 			<div className="container">
-				<div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
+				<div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,black,transparent)]">
 					<div className="flex gap-10 flex-none">
 						<Image src={acmeLogo} alt="" className="logo-ticker" />
 						<Image src={quantumLogo} alt="" className="logo-ticker" />

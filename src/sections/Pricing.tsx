@@ -55,7 +55,7 @@ const pricingTiers = [
 
 export const Pricing = () => {
 	return (
-		<section className="py-4">
+		<section className="py-8 bg-white">
 			<div className="container">
 				<div className="section-heading">
 					<h2 className="section-title">Pricing</h2>
@@ -74,7 +74,7 @@ export const Pricing = () => {
 							<div
 								key={index}
 								className={twMerge(
-									"p-10 border border-[#747474] rounded-3xl shadow-[0_7pc_14px_#FFFFFF] max-w-sm w-full",
+									"card",
 									inverse === true && "border-black bg-black text-white"
 								)}
 							>

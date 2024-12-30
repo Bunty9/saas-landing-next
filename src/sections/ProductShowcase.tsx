@@ -5,7 +5,7 @@ import tubeImage from "@/assets/tube.png";
 
 export const ProductShowcase = () => {
 	return (
-		<section className="bg-gradient-to-b from-[#FFF] to-[#a6b8fc] py-24 overflow-x-clip">
+		<section className="bg-gradient-to-b from-[#FFF] to-[#a6b8fc] overflow-x-clip">
 			<div className="container">
 				<div className="section-heading">
 					<div className="flex justify-center">
