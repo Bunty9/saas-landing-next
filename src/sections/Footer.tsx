@@ -37,7 +37,17 @@ export const Footer = () => {
 				<p className="mt-6">
 					&copy; 2024 Your Company, Inc. All Rights reserved.
 				</p>
-				<p>Made with ❤️ by - Bunty9</p>
+				<p>
+					Made with ❤️ by -{" "}
+					<a
+						href="https://github.com/Bunty9/saas-landing-next.git"
+						target="_blank"
+						rel="noopener noreferrer"
+						className=" hover:underline"
+					>
+						Bunty9
+					</a>
+				</p>
 			</div>
 		</footer>
 	);
