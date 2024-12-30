@@ -11,10 +11,10 @@ export const Hero = () => {
 				<div className="md:flex items-center">
 					<div className="md:w-[478px]">
 						<div className="tag">version 2.0 is here</div>
-						<h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#c42b9b] text-transparent bg-clip-text mt-6">
+						<h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-b from-black to-[#c42b9b] text-transparent bg-clip-text mt-6">
 							Pathway to Productivity
 						</h1>
-						<p className="text-xl text-[#692f5a] tracking-tighter mt-6">
+						<p className="text-xl text-[#692f5a] tracking-tight mt-6">
 							Celebrate the joy of acomplishment with an app designed to tract
 							your progress.
 						</p>

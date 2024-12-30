@@ -93,7 +93,7 @@ const Testimonialscol = (props: {
 						className="h-10 w-10 rounded-full"
 					/>
 					<div>
-						<div className="font-medium tracking-tighter leading-5">{name}</div>
+						<div className="font-medium tracking-tight leading-5">{name}</div>
 						<div className="leading-5 tracking-normal">{username}</div>
 					</div>
 				</div>

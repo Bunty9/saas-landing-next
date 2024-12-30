@@ -96,10 +96,10 @@ export const Pricing = () => {
 									)}
 								</div>
 								<div className="flex items-baseline gap-1 mt-2">
-									<span className="text-4xl font-bold tracking-tighter leading-none">
+									<span className="text-4xl font-bold tracking-tight leading-none">
 										${monthlyPrice}
 									</span>
-									<span className="tracking-tighter font-bold text-black/50">
+									<span className="tracking-tight font-bold text-black/50">
 										/month
 									</span>
 								</div>

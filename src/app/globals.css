@@ -7,7 +7,7 @@
 		@apply inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:blur-md before:w-full before:bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute;
 	}
 	.btn {
-		@apply py-2 px-4 rounded-lg font-medium inline-flex items-center justify-center tracking-tighter;
+		@apply py-2 px-4 rounded-lg font-medium inline-flex items-center justify-center tracking-tight;
 	}
 	.btn-primary {
 		@apply bg-black text-white;
@@ -19,13 +19,13 @@
 		@apply h-8 w-auto;
 	}
 	.tag {
-		@apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tighter;
+		@apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight;
 	}
 	.section-title {
-		@apply text-center text-3xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#273d88] text-transparent bg-clip-text;
+		@apply text-center text-3xl font-bold tracking-tight bg-gradient-to-b from-black to-[#273d88] text-transparent bg-clip-text;
 	}
 	.section-ptag {
-		@apply text-center text-[18px] leading-[20px] tracking-tighter text-[#191c3b] mt-4;
+		@apply text-center text-[18px] leading-[20px] tracking-tight text-[#191c3b] mt-4;
 	}
 	.section-heading {
 		@apply max-w-[540px] mx-auto;
