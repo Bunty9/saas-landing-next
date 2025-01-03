@@ -32,3 +32,6 @@ Follow these steps to set up and explore the Next Js website.
 ## Screenshot
 
 ![screenshot](images/webpage.png)
+
+
+[![https://github.com/Bunty9](https://img.shields.io/badge/Made%20With%20❤️%20By-Bunty9-red)](https://github.com/Bunty9)
